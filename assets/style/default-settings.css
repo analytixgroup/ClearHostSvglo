@@ -1,0 +1,146 @@
+/* Данный файл создан для SVGLO - PROJECT и неявляется - настройщиком другох сайтов */ 
+/* Вся инструкция по настройке сайта на ходится в файле Alert.txt */
+/* Создателем данного файла является AnalytiXGroup */
+
+
+
+/* =================================================================================*/
+/* Здесь находятся настройки, adaptive и простого режима. */
+/* ================================================================================ */
+/* Базовые настройки */
+body, 
+p, 
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+ul, 
+li  {
+	margin: 0;
+}
+
+* {
+	box-sizing: border-box; 
+}
+
+li {
+	list-style-type: none;
+}
+
+
+
+/* ================================================================================ */
+/* Настройки */
+
+.clearBox {
+	clear: both;
+}
+
+
+
+/* =================================================================================*/
+/* Два типа container */
+
+.container {
+	margin: 0 auto;
+}
+
+.container-fluid {
+	width: 100%;
+}
+
+
+
+/* =================================================================================*/
+/* Настройки для блоков в header  */
+
+.header-nav {
+	float: left;
+}
+
+.nav-link {
+	display: inline-block;
+}
+
+/* Подфункции .header-nav */
+
+.header-nav a {
+	padding: 0 5px;
+	margin: 0 5px;
+}
+
+.header-nav input {
+	font-family: 'Raleway', sans-serif;
+	width: 290px;
+	height: 35px;
+	font-size: 18px;
+	font-weight: 600;
+	margin: 5px 15px;
+	border: none;
+	box-shadow: none;
+	outline: none;
+}
+
+ /* Подфункции .header-nav input{} *//*------*//* background font */
+
+.header-nav-background {
+	width: 320px;
+	height: 45px;
+	background-color: #fff;
+	border-radius: 32px;
+	margin: 30px 35px 25px;
+}
+
+
+
+/* ================================================================================ */
+/* Настройка Adaptive */
+
+/* 768px(MAX) Mobile - Version */
+@media screen and () {
+	.container {
+		width: auto;
+	}
+
+	.header-nav {
+		text-align: center;
+		width: 100%;
+	}
+}
+
+/* 768PX Tablet - Version*/
+@media screen and (min-width: 768px){
+	.container {
+		width: 750px;
+	}
+
+	.header-nav {
+		width: 250px;
+	}
+}
+
+
+/* 992PX Desktop Normal - Version */
+@media screen and (min-width: 992px) {
+	.container {
+		width: 975px;
+    }
+
+    .header-nav {
+		width: 325px;
+	}
+}
+
+
+/* 1200px Descktop Max - Version */
+@media screen and (min-width: 1200px) {
+	.container {
+		width: 1170px;
+	}
+
+	.header-nav {
+		width: 390px;
+	}
+}
