@@ -1,0 +1,39 @@
+/*Этот файл преднозначен для обработки стиля векторного формата*/
+.blockImg {
+	float: left;
+	width: 292.5px;
+}
+
+.thisImg {
+	margin: 15px;
+	width: 262.5px;
+}
+
+.thisImg img {
+	width: auto;
+	height: 262.5px;
+}
+
+.titleBlockImg {
+	text-align: center;
+	margin: 15px 25px;
+	width: 242.5px;
+}
+
+.titleBlockImg p {
+	font-family: JKGothic;
+}
+
+.buttonBlockImg {
+	text-align: center;
+	height: 30px;
+}
+
+.buttonBlockImg a {
+	font-family: JKGothic;
+	margin: 5px 10px;
+	padding: 5px 10px;
+	background-color: #8cbe73;
+	border-radius: 15px;
+	color: #fff;
+}
